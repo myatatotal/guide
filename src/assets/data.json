@@ -1,0 +1,219 @@
+{
+    "meta": [
+        {
+            "Currency": "BRL",
+            "symbol": "PETR4.SA",
+            "exchangeName": "SAO",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 946900800,
+            "regularMarketTime": 1679515665,
+            "gmtoffset": -10800,
+            "timezone": "BRT",
+            "exchangeTimezoneName": "America/Sao_Paulo",
+            "regularMarketPrice": 23.33,
+            "chartPreviousClose": 23.4,
+            "previousClose": 23.4,
+            "scale": 3,
+            "priceHint": 2,
+            "TranValueDate": "2018-09-30T00:00:00",
+            "Balacne": 502486,
+            "PortfolioYield": null,
+            "SumOfDeposit": 500000,
+            "SumOfWithdrwal": 0,
+            "MonthlyCumulativeYieldPreTax": 0.5,
+            "CumulativeYieldPreTax": 0.5,
+            "MonthlyCumulativeYield": 0.5,
+            "CumulativeYield": 0.5,
+            "tax": 6,
+            "currentTradingPeriod": {
+                "pre": {
+                    "timezone": "BRT",
+                    "end": 1679576400,
+                    "start": 1679575500,
+                    "gmtoffset": -10800
+                },
+                "regular": {
+                    "timezone": "BRT",
+                    "end": 1679601600,
+                    "start": 1679576400,
+                    "gmtoffset": -10800
+                },
+                "post": {
+                    "timezone": "BRT",
+                    "end": 1679605200,
+                    "start": 1679601600,
+                    "gmtoffset": -10800
+                }
+            },
+            "tradingPeriods": [
+                [
+                    {
+                        "timezone": "BRT",
+                        "end": 1679515200,
+                        "start": 1679490000,
+                        "gmtoffset": -10800
+                    }
+                ]
+            ],
+            "dataGranularity": "1m",
+            "range": "1d",
+            "validRanges": [
+                "1d",
+                "5d",
+                "1mo",
+                "3mo",
+                "6mo",
+                "1y",
+                "2y",
+                "5y",
+                "10y",
+                "ytd",
+                "max"
+            ]
+        },
+        {
+            "Currency": 3,
+            "symbol": "PETR4.SA",
+            "exchangeName": "SAO",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 946900800,
+            "regularMarketTime": 1679515665,
+            "gmtoffset": -10800,
+            "timezone": "BRT",
+            "exchangeTimezoneName": "America/Sao_Paulo",
+            "regularMarketPrice": 23.33,
+            "chartPreviousClose": 23.4,
+            "previousClose": 23.4,
+            "scale": 3,
+            "priceHint": 2,
+            "TranValueDate": "2018-12-31T00:00:00",
+            "Balacne": 483576,
+            "PortfolioYield": null,
+            "SumOfDeposit": 0,
+            "SumOfWithdrwal": 0,
+            "MonthlyCumulativeYieldPreTax": -2.25,
+            "CumulativeYieldPreTax": -3.27,
+            "MonthlyCumulativeYield": -2.26,
+            "CumulativeYield": -3.29,
+            "tax": 59.46,
+            "currentTradingPeriod": {
+                "pre": {
+                    "timezone": "BRT",
+                    "end": 1679576400,
+                    "start": 1679575500,
+                    "gmtoffset": -10800
+                },
+                "regular": {
+                    "timezone": "BRT",
+                    "end": 1679601600,
+                    "start": 1679576400,
+                    "gmtoffset": -10800
+                },
+                "post": {
+                    "timezone": "BRT",
+                    "end": 1679605200,
+                    "start": 1679601600,
+                    "gmtoffset": -10800
+                }
+            },
+            "tradingPeriods": [
+                [
+                    {
+                        "timezone": "BRT",
+                        "end": 1679515200,
+                        "start": 1679490000,
+                        "gmtoffset": -10800
+                    }
+                ]
+            ],
+            "dataGranularity": "1m",
+            "range": "1d",
+            "validRanges": [
+                "1d",
+                "5d",
+                "1mo",
+                "3mo",
+                "6mo",
+                "1y",
+                "2y",
+                "5y",
+                "10y",
+                "ytd",
+                "max"
+            ]
+        },
+        {
+            "Currency": 7,
+            "symbol": "PETR4.SA",
+            "exchangeName": "SAO",
+            "instrumentType": "EQUITY",
+            "firstTradeDate": 946900800,
+            "regularMarketTime": 1679515665,
+            "gmtoffset": -10800,
+            "timezone": "BRT",
+            "exchangeTimezoneName": "America/Sao_Paulo",
+            "regularMarketPrice": 23.33,
+            "chartPreviousClose": 23.4,
+            "previousClose": 23.4,
+            "scale": 3,
+            "priceHint": 2,
+            "TranValueDate": "2019-02-28T00:00:00",
+            "Balacne": 511761.13,
+            "PortfolioYield": null,
+            "SumOfDeposit": 0,
+            "SumOfWithdrwal": 0,
+            "MonthlyCumulativeYieldPreTax": 1.4,
+            "CumulativeYieldPreTax": 0.77,
+            "MonthlyCumulativeYield": 1.4,
+            "CumulativeYield": 0.74,
+            "tax": 0,
+            "currentTradingPeriod": {
+                "pre": {
+                    "timezone": "BRT",
+                    "end": 1679576400,
+                    "start": 1679575500,
+                    "gmtoffset": -10800
+                },
+                "regular": {
+                    "timezone": "BRT",
+                    "end": 1679601600,
+                    "start": 1679576400,
+                    "gmtoffset": -10800
+                },
+                "post": {
+                    "timezone": "BRT",
+                    "end": 1679605200,
+                    "start": 1679601600,
+                    "gmtoffset": -10800
+                }
+            },
+            "tradingPeriods": [
+                [
+                    {
+                        "timezone": "BRT",
+                        "end": 1679515200,
+                        "start": 1679490000,
+                        "gmtoffset": -10800
+                    }
+                ]
+            ],
+            "dataGranularity": "1m",
+            "range": "1d",
+            "validRanges": [
+                "1d",
+                "5d",
+                "1mo",
+                "3mo",
+                "6mo",
+                "1y",
+                "2y",
+                "5y",
+                "10y",
+                "ytd",
+                "max"
+            ]
+        }
+    ]
+     
+}
+

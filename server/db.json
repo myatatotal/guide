@@ -1,118 +1,344 @@
 {
-   "meta":{
-      "currency":"BRL",
-      "symbol":"PETR4.SA",
-      "exchangeName":"SAO",
-      "instrumentType":"EQUITY",
-      "firstTradeDate":946900800,
-      "regularMarketTime":1678108476,
-      "gmtoffset":-10800,
-      "timezone":"BRT",
-      "exchangeTimezoneName":"America/Sao_Paulo",
-      "regularMarketPrice":25.69,
-      "chartPreviousClose":25.7,
-      "previousClose":25.7,
-      "scale":3,
-      "priceHint":2,
-      "currentTradingPeriod":{
-         "pre":{
-            "timezone":"BRT",
-            "start":1678106700,
-            "end":1678107600,
-            "gmtoffset":-10800
-         },
-         "regular":{
-            "timezone":"BRT",
-            "start":1678107600,
-            "end":1678132800,
-            "gmtoffset":-10800
-         },
-         "post":{
-            "timezone":"BRT",
-            "start":1678132800,
-            "end":1678136400,
-            "gmtoffset":-10800
-         }
-      },
-      "tradingPeriods":[
-         [
-            {
-               "timezone":"BRT",
-               "start":1678107600,
-               "end":1678132800,
-               "gmtoffset":-10800
-            }
-         ]
-      ],
-      "dataGranularity":"1m",
-      "range":"1d",
-      "validRanges":[
-         "1d",
-         "5d",
-         "1mo",
-         "3mo",
-         "6mo",
-         "1y",
-         "2y",
-         "5y",
-         "10y",
-         "ytd",
-         "max"
-      ]
-   },
-   "timestamp":[
-      1678108200,
-      1678108260,
-      1678108320,
-      1678108380,
-      1678108440,
-      1678108476
-   ],
-   "indicators":{
-      "quote":[
-         {
-            "open":[
-               25.700000762939453,
-               25.65999984741211,
-               25.639999389648438,
-               25.600000381469727,
-               null,
-               25.690000534057617
-            ],
-            "volume":[
-               0,
-               214400,
-               400600,
-               106000,
-               null,
-               0
-            ],
-            "low":[
-               25.6200008392334,
-               25.610000610351562,
-               25.559999465942383,
-               25.600000381469727,
-               null,
-               25.690000534057617
-            ],
-            "close":[
-               25.6200008392334,
-               25.639999389648438,
-               25.600000381469727,
-               25.649999618530273,
-               null,
-               25.690000534057617
-            ],
-            "high":[
-               25.709999084472656,
-               25.739999771118164,
-               25.639999389648438,
-               25.649999618530273,
-               null,
-               25.690000534057617
-            ]
-         }
-      ]
-   }
-}
-   
+   "Return_isSuccess": "1",
+   "return_code": "0",
+   "meta": [
+     {
+       "Currency": 1,
+       "TranValueDate": "2018-09-30T00:00:00",
+       "Balacne": 502486,
+       "PortfolioYield": null,
+       "SumOfDeposit": 500000,
+       "SumOfWithdrwal": 0,
+       "MonthlyCumulativeYieldPreTax": 0.5,
+       "CumulativeYieldPreTax": 0.5,
+       "MonthlyCumulativeYield": 0.5,
+       "CumulativeYield": 0.5,
+       "tax": 6
+     },
+     {
+       "Currency": 1,
+       "TranValueDate": "2018-12-31T00:00:00",
+       "Balacne": 483576,
+       "PortfolioYield": null,
+       "SumOfDeposit": 0,
+       "SumOfWithdrwal": 0,
+       "MonthlyCumulativeYieldPreTax": -2.25,
+       "CumulativeYieldPreTax": -3.27,
+       "MonthlyCumulativeYield": -2.26,
+       "CumulativeYield": -3.29,
+       "tax": 59.46
+     },
+     {
+       "Currency": 1,
+       "TranValueDate": "2019-02-28T00:00:00",
+       "Balacne": 503742,
+       "PortfolioYield": null,
+       "SumOfDeposit": 0,
+       "SumOfWithdrwal": 0,
+       "MonthlyCumulativeYieldPreTax": 1.4,
+       "CumulativeYieldPreTax": 0.77,
+       "MonthlyCumulativeYield": 1.4,
+       "CumulativeYield": 0.74,
+       "tax": 0
+     },
+     {
+       "Currency": 1,
+       "TranValueDate": "2019-05-31T00:00:00",
+       "Balacne": 511761.13,
+       "PortfolioYield": null,
+       "SumOfDeposit": 0,
+       "SumOfWithdrwal": 0,
+       "MonthlyCumulativeYieldPreTax": -0.57,
+       "CumulativeYieldPreTax": 2.37,
+       "MonthlyCumulativeYield": -0.56,
+       "CumulativeYield": 2.34,
+       "tax": -31.34
+     },
+     {
+       "Currency": 1,
+       "TranValueDate": "2019-08-30T00:00:00",
+       "Balacne": 522273.6,
+       "PortfolioYield": null,
+       "SumOfDeposit": 0,
+       "SumOfWithdrwal": 0,
+       "MonthlyCumulativeYieldPreTax": -0.32,
+       "CumulativeYieldPreTax": 4.51,
+       "MonthlyCumulativeYield": -0.32,
+       "CumulativeYield": 4.45,
+       "tax": 0
+     },
+     {
+       "Currency": 1,
+       "TranValueDate": "2019-11-29T00:00:00",
+       "Balacne": 535469.74,
+       "PortfolioYield": null,
+       "SumOfDeposit": 0,
+       "SumOfWithdrwal": 0,
+       "MonthlyCumulativeYieldPreTax": 0.73,
+       "CumulativeYieldPreTax": 7.14,
+       "MonthlyCumulativeYield": 0.74,
+       "CumulativeYield": 7.09,
+       "tax": -28.86
+     },
+     {
+       "Currency": 1,
+       "TranValueDate": "2020-01-31T00:00:00",
+       "Balacne": 539093,
+       "PortfolioYield": null,
+       "SumOfDeposit": 0,
+       "SumOfWithdrwal": 0,
+       "MonthlyCumulativeYieldPreTax": 0.36,
+       "CumulativeYieldPreTax": 7.97,
+       "MonthlyCumulativeYield": 0.27,
+       "CumulativeYield": 7.81,
+       "tax": 446.57
+     },
+     {
+       "Currency": 1,
+       "TranValueDate": "2020-04-30T00:00:00",
+       "Balacne": 506024,
+       "PortfolioYield": null,
+       "SumOfDeposit": 0,
+       "SumOfWithdrwal": 0,
+       "MonthlyCumulativeYieldPreTax": 4.11,
+       "CumulativeYieldPreTax": 1.38,
+       "MonthlyCumulativeYield": 4.1,
+       "CumulativeYield": 1.19,
+       "tax": 21.16
+     },
+     {
+       "Currency": 1,
+       "TranValueDate": "2020-07-31T00:00:00",
+       "Balacne": 520765,
+       "PortfolioYield": null,
+       "SumOfDeposit": 0,
+       "SumOfWithdrwal": 0,
+       "MonthlyCumulativeYieldPreTax": 1.79,
+       "CumulativeYieldPreTax": 4.39,
+       "MonthlyCumulativeYield": 1.8,
+       "CumulativeYield": 4.14,
+       "tax": -51.43
+     },
+     {
+       "Currency": 1,
+       "TranValueDate": "2020-10-13T00:00:00",
+       "Balacne": 531924,
+       "PortfolioYield": null,
+       "SumOfDeposit": 0,
+       "SumOfWithdrwal": 0,
+       "MonthlyCumulativeYieldPreTax": 1.65,
+       "CumulativeYieldPreTax": 6.69,
+       "MonthlyCumulativeYield": 1.59,
+       "CumulativeYield": 6.37,
+       "tax": 319.38
+     },
+     {
+       "Currency": 1,
+       "TranValueDate": "2019-03-31T00:00:00",
+       "Balacne": 506567.25,
+       "PortfolioYield": null,
+       "SumOfDeposit": 0,
+       "SumOfWithdrwal": 0,
+       "MonthlyCumulativeYieldPreTax": 0.56,
+       "CumulativeYieldPreTax": 1.33,
+       "MonthlyCumulativeYield": 0.56,
+       "CumulativeYield": 1.31,
+       "tax": 0
+     },
+     {
+       "Currency": 1,
+       "TranValueDate": "2020-02-28T00:00:00",
+       "Balacne": 532755,
+       "PortfolioYield": null,
+       "SumOfDeposit": 0,
+       "SumOfWithdrwal": 0,
+       "MonthlyCumulativeYieldPreTax": -1.14,
+       "CumulativeYieldPreTax": 6.74,
+       "MonthlyCumulativeYield": -1.18,
+       "CumulativeYield": 6.54,
+       "tax": 213.91
+     },
+     {
+       "Currency": 1,
+       "TranValueDate": "2018-11-30T00:00:00",
+       "Balacne": 494764.5,
+       "PortfolioYield": null,
+       "SumOfDeposit": 0,
+       "SumOfWithdrwal": 0,
+       "MonthlyCumulativeYieldPreTax": 0.58,
+       "CumulativeYieldPreTax": -1.04,
+       "MonthlyCumulativeYield": 0.59,
+       "CumulativeYield": -1.05,
+       "tax": -27.11
+     },
+     {
+       "Currency": 1,
+       "TranValueDate": "2019-10-31T00:00:00",
+       "Balacne": 531553,
+       "PortfolioYield": null,
+       "SumOfDeposit": 0,
+       "SumOfWithdrwal": 0,
+       "MonthlyCumulativeYieldPreTax": 0.83,
+       "CumulativeYieldPreTax": 6.37,
+       "MonthlyCumulativeYield": 0.83,
+       "CumulativeYield": 6.3,
+       "tax": 27.94
+     },
+     {
+       "Currency": 1,
+       "TranValueDate": "2020-09-30T00:00:00",
+       "Balacne": 523598.22,
+       "PortfolioYield": null,
+       "SumOfDeposit": 0,
+       "SumOfWithdrwal": 0,
+       "MonthlyCumulativeYieldPreTax": -1.8,
+       "CumulativeYieldPreTax": 4.96,
+       "MonthlyCumulativeYield": -1.8,
+       "CumulativeYield": 4.71,
+       "tax": 31.79
+     },
+     {
+       "Currency": 1,
+       "TranValueDate": "2018-10-31T00:00:00",
+       "Balacne": 491862,
+       "PortfolioYield": null,
+       "SumOfDeposit": 0,
+       "SumOfWithdrwal": 0,
+       "MonthlyCumulativeYieldPreTax": -2.1,
+       "CumulativeYieldPreTax": -1.61,
+       "MonthlyCumulativeYield": -2.12,
+       "CumulativeYield": -1.63,
+       "tax": 65.59
+     },
+     {
+       "Currency": 1,
+       "TranValueDate": "2019-06-30T00:00:00",
+       "Balacne": 518739.03,
+       "PortfolioYield": null,
+       "SumOfDeposit": 0,
+       "SumOfWithdrwal": 0,
+       "MonthlyCumulativeYieldPreTax": 1.38,
+       "CumulativeYieldPreTax": 3.79,
+       "MonthlyCumulativeYield": 1.36,
+       "CumulativeYield": 3.74,
+       "tax": 67.76
+     },
+     {
+       "Currency": 1,
+       "TranValueDate": "2019-09-29T00:00:00",
+       "Balacne": 527176,
+       "PortfolioYield": null,
+       "SumOfDeposit": 0,
+       "SumOfWithdrwal": 0,
+       "MonthlyCumulativeYieldPreTax": 0.94,
+       "CumulativeYieldPreTax": 5.49,
+       "MonthlyCumulativeYield": 0.94,
+       "CumulativeYield": 5.43,
+       "tax": 30.88
+     },
+     {
+       "Currency": 1,
+       "TranValueDate": "2019-12-31T00:00:00",
+       "Balacne": 537610.19,
+       "PortfolioYield": null,
+       "SumOfDeposit": 0,
+       "SumOfWithdrwal": 0,
+       "MonthlyCumulativeYieldPreTax": 0.41,
+       "CumulativeYieldPreTax": 7.58,
+       "MonthlyCumulativeYield": 0.4,
+       "CumulativeYield": 7.52,
+       "tax": 79.35
+     },
+     {
+       "Currency": 1,
+       "TranValueDate": "2020-05-31T00:00:00",
+       "Balacne": 513546.85,
+       "PortfolioYield": null,
+       "SumOfDeposit": 0,
+       "SumOfWithdrwal": 0,
+       "MonthlyCumulativeYieldPreTax": 1.55,
+       "CumulativeYieldPreTax": 2.95,
+       "MonthlyCumulativeYield": 1.49,
+       "CumulativeYield": 2.7,
+       "tax": 314.72
+     },
+     {
+       "Currency": 1,
+       "TranValueDate": "2020-08-31T00:00:00",
+       "Balacne": 533206,
+       "PortfolioYield": null,
+       "SumOfDeposit": 0,
+       "SumOfWithdrwal": 0,
+       "MonthlyCumulativeYieldPreTax": 2.39,
+       "CumulativeYieldPreTax": 6.88,
+       "MonthlyCumulativeYield": 2.39,
+       "CumulativeYield": 6.63,
+       "tax": -7.69
+     },
+     {
+       "Currency": 1,
+       "TranValueDate": "2019-01-31T00:00:00",
+       "Balacne": 496798,
+       "PortfolioYield": null,
+       "SumOfDeposit": 0,
+       "SumOfWithdrwal": 0,
+       "MonthlyCumulativeYieldPreTax": 2.73,
+       "CumulativeYieldPreTax": -0.63,
+       "MonthlyCumulativeYield": 2.73,
+       "CumulativeYield": -0.65,
+       "tax": 0
+     },
+     {
+       "Currency": 1,
+       "TranValueDate": "2019-04-30T00:00:00",
+       "Balacne": 514649,
+       "PortfolioYield": null,
+       "SumOfDeposit": 0,
+       "SumOfWithdrwal": 0,
+       "MonthlyCumulativeYieldPreTax": 1.61,
+       "CumulativeYieldPreTax": 2.96,
+       "MonthlyCumulativeYield": 1.59,
+       "CumulativeYield": 2.92,
+       "tax": 79.89
+     },
+     {
+       "Currency": 1,
+       "TranValueDate": "2019-07-31T00:00:00",
+       "Balacne": 523964,
+       "PortfolioYield": null,
+       "SumOfDeposit": 0,
+       "SumOfWithdrwal": 0,
+       "MonthlyCumulativeYieldPreTax": 1.02,
+       "CumulativeYieldPreTax": 4.85,
+       "MonthlyCumulativeYield": 1.01,
+       "CumulativeYield": 4.78,
+       "tax": 66.16
+     },
+     {
+       "Currency": 1,
+       "TranValueDate": "2020-03-31T00:00:00",
+       "Balacne": 486078.99,
+       "PortfolioYield": null,
+       "SumOfDeposit": 0,
+       "SumOfWithdrwal": 0,
+       "MonthlyCumulativeYieldPreTax": -8.77,
+       "CumulativeYieldPreTax": -2.62,
+       "MonthlyCumulativeYield": -8.76,
+       "CumulativeYield": -2.79,
+       "tax": -50.11
+     },
+     {
+       "Currency": 1,
+       "TranValueDate": "2020-06-30T00:00:00",
+       "Balacne": 511533.23,
+       "PortfolioYield": null,
+       "SumOfDeposit": 0,
+       "SumOfWithdrwal": 0,
+       "MonthlyCumulativeYieldPreTax": -0.39,
+       "CumulativeYieldPreTax": 2.55,
+       "MonthlyCumulativeYield": -0.39,
+       "CumulativeYield": 2.3,
+       "tax": 30.14
+     }
+   ]
+ }
